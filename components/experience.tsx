@@ -4,6 +4,15 @@ import { CalendarDays, MapPin } from "lucide-react"
 
 export function Experience() {
   const experiences = [
+      {
+      title: "Full-Stack Software Engineering Intern",
+      company: "Astan",
+      location: "New York, NY",
+      period: "05/2025 - 08/2025",
+      description:
+        "I joined the founding team of Astan, a New York–based startup led by former Meta and Goldman leaders, to build the MVP of a creator safety platform for incident reporting and identity verification. I developed AWS serverless APIs, automated ID verification (boosting pass rates by 35%), and streamlined authentication flows that cut failed logins from 25% to 5%. I also built a CI/CD pipeline with Docker and GitHub Actions that reduced release time by 94%, ensuring fast, reliable deployments. The product is currently under review with Meta",
+      technologies: ["Python", "AWS", "Lambda", "API Gateway", "DynamoDB", "S3", "Next.js", "React", "GitHub Actions", "CI/CD", "CloudWatch"],
+    },
     {
       title: "Software Engineering Intern",
       company: "Unity Health Toronto",
