@@ -68,7 +68,7 @@ export function Hero() {
 
     const handleResumeDownload = () => {
     // Replace with your actual resume file path
-    const resumeUrl = "/Ryan_Javid_Winter_2026_Resume.pdf" // Put your resume.pdf in the public folder
+    const resumeUrl = "/Ryan_Javid_Winter_2026.pdf" // Put your resume.pdf in the public folder
     const link = document.createElement("a")
     link.href = resumeUrl
     link.download = "Ryan_Sadeghi_Javid_Resume.pdf" // Customize the download filename
