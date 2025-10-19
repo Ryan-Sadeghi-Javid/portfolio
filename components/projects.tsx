@@ -8,6 +8,16 @@ export function Projects() {
   
   const projects = [
     {
+      title: "Pulse Relief",
+      description:
+        "A transparent aid platform that connects donors, NGOs, recipients, and merchants end-to-end on the XRP Ledger. Donors give via Stripe (fiat) while NGO-issued vouchers (IOUs) are delivered as QR/SMS, redeemed instantly by merchants, and recorded on-chain for auditable, tamper-proof flow. Built with Next.js + Tailwind (web), Flask + xrpl-py (API/ledger), and Supabase (auth/logs), with Face ID–secured recipient wallets for passwordless, fraud-resistant access.",
+      image: "/pulse_r.png?height=200&width=400",
+      technologies: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Flask", "Python", "Node.js", "xrpl-py", "XRP Ledger (XRPL)", "Stripe API", "Supabase", "PostgreSQL", "Decentralized Identifiers (DIDs)", "Biometric Face ID (embeddings & liveness)", "QR/SMS Voucher Delivery"],
+      github: "https://github.com/peterson-htn252/PulseRelief",
+      live: "https://relief-demo.petersonguo.com/",
+      featured: true,
+    },
+    {
       title: "Healic",
       description:
         "A mental health web platform enabling anonymous peer-to-peer chat, resource sharing, and charitable giving. Integrates the OpenAI API to generate context-aware message suggestions using the user’s recent conversation history, helping users initiate or continue meaningful dialogue. Built to foster connection and support through real-time communication and an intuitive, accessible UI.",
@@ -96,7 +106,9 @@ export function Projects() {
   <a
     href={
       project.title === "Mindbridge: Communication Platform"
-        ? "https://devpost.com/software/mindbridge.study" // your Mindbridge Devpost link
+        ? "https://devpost.com/software/mindbridge.study"
+        : project.title === "Pulse Relief"
+        ? "https://devpost.com/software/ripplerelief"
         : "https://devpost.com/software/healic"
     }
     target="_blank"
@@ -107,6 +119,7 @@ export function Projects() {
     </Badge>
   </a>
 )}
+
 
             
             
