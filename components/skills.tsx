@@ -3,22 +3,73 @@ import { Badge } from "@/components/ui/badge"
 
 export function Skills() {
   const skillCategories = [
-    {
-      title: "Frontend",
-      skills: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js", "Angular", "HTML5", "CSS3", "MaterializeCSS", "JavaFX"],
-    },
-    {
-      title: "Backend",
-      skills: ["Node.js", "Python", "Express.js", "FastAPI", "PostgreSQL", "MongoDB", "Redis", "Socket.io","GraphQL"],
-    },
-    {
-      title: "DevOps & Tools",
-      skills: ["Docker", "AWS", "Nginx", "Postman", "Vercel", "Git", "GitHub Actions", "Jest", "Cypress", "Webpack"],
-    },
-    {
-      title: "Mobile & Other",
-      skills: ["React Native", "Flutter", "Figma", "OpenAI API", "Scrum", "REST APIs", "TensorFlow"],
-    },
+  {
+    title: "Languages",
+    skills: [
+      "C++",
+      "C",
+      "Rust",
+      "Python",
+      "Go",
+      "TypeScript",
+      "JavaScript",
+      "C#",
+      "CSS3",
+      "MaterializeCSS",
+      "JavaFX",
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "FastAPI",
+      "REST APIs",
+      "Socket.io",
+      "GraphQL",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Kafka",
+      "TCP/IP Sockets",
+      "Concurrency & Multithreading",
+      "IPC (Shared Memory)",
+    ],
+  },
+  {
+    title: "DevOps & Tools",
+    skills: [
+      "Docker",
+      "AWS (S3)",
+      "Nginx",
+      "Git",
+      "GitHub Actions",
+      "CI/CD",
+      "Grafana",
+      "Postman",
+      "Vercel",
+      "Jest",
+      "Cypress",
+      "Webpack",
+      "Linux/UNIX",
+      "gdb",
+    ],
+  },
+  {
+    title: "Mobile & Other",
+    skills: [
+      "React Native",
+      "Flutter",
+      "Figma",
+      "OpenAI API",
+      "Scrum/Agile",
+      "System Design Basics",
+      "Profiling & Debugging",
+      "TensorFlow",
+    ],
+  },
   ]
 
   return (

@@ -4,17 +4,22 @@ import { CalendarDays, MapPin } from "lucide-react"
 
 export function Experience() {
   const experiences = [
+          {
+      title: "Software Engineering (Co-op)",
+      company: "Lumentum",
+      location: "Ottawa, ON",
+      period: "01/2026- 04/2026",
+      
+    },
       {
-      title: "Full-Stack Software Engineering Intern",
+      title: "Software Engineering (Co-op)",
       company: "Astan",
       location: "New York, NY",
       period: "05/2025 - 08/2025",
-      description:
-        "I joined the founding team of Astan, a New York–based startup led by former Meta and Goldman leaders, to build the MVP of a creator safety platform for incident reporting and identity verification. I developed AWS serverless APIs, automated ID verification (boosting pass rates by 35%), and streamlined authentication flows that cut failed logins from 25% to 5%. I also built a CI/CD pipeline with Docker and GitHub Actions that reduced release time by 94%, ensuring fast, reliable deployments. The product is currently under review with Meta",
-      technologies: ["Python", "AWS", "Lambda", "API Gateway", "DynamoDB", "S3", "Next.js", "React", "GitHub Actions", "CI/CD", "CloudWatch"],
+      
     },
     {
-      title: "Software Engineering Intern",
+      title: "Software Engineering (Co-op)",
       company: "Unity Health Toronto",
       location: "Toronto, ON",
       period: "09/2024 - 12/2024",
@@ -23,7 +28,7 @@ export function Experience() {
       technologies: ["JavaScript", "Java", "Python", "Docker", "Postman", "Spring Framework", "Node.js", "React", "MongoDB"],
     },
     {
-      title: "System Engineering Intern",
+      title: "Software Engineering (Co-op)",
       company: "Crosslinx Transit Solutions",
       location: "Toronto, ON",
       period: "01/2024 - 04/2024",
@@ -68,14 +73,6 @@ export function Experience() {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">{experience.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {experience.technologies.map((tech, techIndex) => (
-                    <Badge key={techIndex} variant="secondary">
-                      {tech}
-                    </Badge>
-                  ))}
-                </div>
               </CardContent>
             </Card>
           ))}

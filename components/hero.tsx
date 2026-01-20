@@ -114,10 +114,7 @@ Full-stack developer and electrical engineer at the University of Waterloo, crea
             <Mail className="mr-2 h-4 w-4" />
             Get In Touch
           </Button>
-          <Button variant="outline" size="lg" onClick={handleResumeDownload}>
-            <Download className="mr-2 h-4 w-4" />
-            Download Resume
-          </Button>
+
         </div>
 
         <div className="flex justify-center space-x-6">
