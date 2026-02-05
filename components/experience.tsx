@@ -6,7 +6,7 @@ export function Experience() {
   const experiences = [
           {
       title: "Software Engineering (Co-op)",
-      company: "Lumentum",
+      company: "Augmenta",
       location: "Ottawa, ON",
       period: "01/2026- 04/2026",
       
